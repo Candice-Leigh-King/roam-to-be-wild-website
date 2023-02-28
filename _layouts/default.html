@@ -63,21 +63,50 @@
 </head>
 
 <body>
-    {{content}}
-    {% for item in page.content-blocks %}
-    <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[{{ forloop.index0 }}]">
-        <span class="cms-editor-button"></span>
-      {% include {{item._section-type}}.html %}
-    {% endfor %}
+    <header class = "grid-right padded-sm">
+        <nav class = "col-3">
+            <a class = "hamburger-button">Menu</a>
+        </nav>
+        <nav class = "col-12 mobile-menu center">
+          <a href = "#">About</a>
+          <a href = "#">What I Do</a>
+          <a href = "#">Porftfolio</a>
+          <a href = "#">Contact</a>
+        </nav>
+    </header>
+      {{content}}
+      {% for item in page.content-blocks %}
+      <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[{{ forloop.index0 }}]">
+          <span class="cms-editor-button"></span>
+        {% include {{item._section-type}}.html %}
+      {% endfor %}
     
+      <footer class = "bg-white">
+        <div class ="grid-center">
+          <nav class = "col-6 text-center footer-social-nav">
+            <a href = "#"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href = "#"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href = "#"> <i class="fa-brands fa-youtube"></i> </a>
+            <a href = "#"> <i class="fa-brands fa-tiktok"></i> </a>
+          </nav>
+        </div>
+        <div class ="grid-center">
+          <nav class = "col-8 text-center footer-social-nav">
+            <a href = "#">portfolio</a>
+            <a href = "#">stays</a>
+            <a href = "#">contact</a>
+          </nav>
+        </div>
+          
+      </footer>
     <!-- Footer -->
     
     
     <!-- FooterTs & Cs links -->
     <div class="col-12-middle text-center built bg-camel padded-top padded-b-1 shop-requirements">
-        <p> 
+        <!-- <p> 
           <a href="{{site.data.footer.shop-requirements.privacy-link}}" class="padded-sides"> {{site.data.footer.shop-requirements.privacy-heading}} </a><a href="{{site.data.footer.shop-requirements. terms-and-conditions-link}}" class="padded-sides"><br class="desktop-hide"> {{site.data.footer.shop-requirements. terms-and-conditions-heading}} </a><a href="/" class="padded-right"><br class="desktop-hide"> © {{site.data.general.basics.your-brand-name}}</a><a href="https://www.kingcode.uk" class="padded-sides"><br class="desktop-hide"> Website by King Code </a>
-        </p>
+        </p> -->
       </div>
     <!-- SCRIPTS GO HERE  -->
     <!-- JQuery -->
