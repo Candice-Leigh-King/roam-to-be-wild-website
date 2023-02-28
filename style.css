@@ -1,8 +1,10 @@
 /* Root Styles */
 :root{
-    --primary-color: ;
-    --secondary-color: ;
-    --accent-color: ;
+    --base-color: #E2E4E6;
+    --secondary-color: #C1D6DF;
+    --button-color: #A2B7C0;
+    --accent-color-1: #E3C3B6;
+    --accent-color-2: #C09D8A;
 }
 
 /* To be Deleted */ 
@@ -37,13 +39,18 @@ hr, img{border: 1px solid blue;}  */
 /* Add Font */
 
 @font-face {
-    font-family: ;
-    src: url('');
+    font-family: Lovelace_Regular;
+    src: url('/fonts/Lovelace_Regular.otf');
 }
 
 @font-face {
-    font-family: ;
-    src: url('');
+  font-family: Lovelace_Italic;
+  src: url('/fonts/Lovelace_Bold_Italic.otf');
+}
+
+@font-face {
+    font-family: The_Youngest_Serif;
+    src: url('/fonts/the_youngest_serif.ttf');
 }
 
 /* Typography standard styles */
@@ -54,30 +61,39 @@ hr, img{border: 1px solid blue;}  */
 
 
 body {
-  font-family: "Arial", sans-serif;  /* Add your font here */ 
-}
-h1, h2{
-    font-family: ;
-}
-h3, h4, h5, h6 {
-    font-family: ;
+  font-family: The_Youngest_Serif; 
 }
 
-h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6{
+  font-family: Lovelace_Regular;
+}
+p, a{
+  font-family: The_Youngest_Serif;
+  font-size: 1.2rem;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3,h4,h5,h6{
+  font-size: 1.5rem;
+}
+/* h2, h3, h4, h5, h6 {
     line-height: 1.1;
     margin-bottom: 1.2rem;
-}
+} */
 
 p {
-    font-family: ;
     line-height: 1.4; 
     margin-bottom: 1rem;
 }
 
 a{
-    font-family: ;
-    font-weight: 100;
     text-decoration: none;
+    color: inherit;
 }
 
 h2:last-child, 
@@ -318,3 +334,6 @@ html
     opacity: 1;
     }
 }
+
+
+

@@ -2,11 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Meta data for SEO purposes. -->
+   <title> {{page.seo.title}} </title>
+
+   <meta name="description" content="{{page.seo.description}}" />
+   <meta name="keywords" content="{{page.seo.keywords}}" />
+
+   <!-- meta data to tell the browser that your devide is responsive -->
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="robots" content="index, follow" />
+   <meta name="mobile-web-app-capable" content="yes" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+   <!--  Social media sharing META Tags -->
+   <meta property="og:title" content="{{page.seo.title}}" />
+   <meta property="og:description" content="{{page.seo.description}}" />
+   <meta property="og:image" content="{{ page.seo.social-share_image }}" />
+   <meta property="og:url" content="{{page.seo.url}}" />
+   <meta name="twitter:card" content="{{page.seo.description}}" />
+   <meta name="og:site_name" content="{{page.seo.title}}" />
+
+   <!-- twitter card -->
+   <meta name="twitter:card" content="{{page.seo.description}}" />
+   <meta name="twitter:description" content="{{page.seo.description}}" />
+   <meta name="twitter:title" content="{{page.seo.title}}" />
+   <meta name="twitter:site" content="{{page.seo.url}}" />
+   <meta name="twitter:creator" content="{{page.seo.social-alt}}" />
+
+   <meta name="twitter:image:alt" content="{{page.seo.social-share_image}}" />
+
+   <!-- link to browser icon tag -->
+   <link rel="icon" href="{{site.data.general.basics.browser-tag_image}}" type="image/x-icon" />
+   <link rel="apple-touch-icon" sizes="180x180" href="{{site.data.general.basics.browser-tag_image}}" />
+   <link rel="icon" type="image/x-icon" sizes="32x32" href="{{site.data.general.basics.browser-tag_image}}" />
+   <link rel="icon" type="image/x-icon" sizes="16x16" href="{{site.data.general.basics.browser-tag_image}}" />
+   <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0379688db4.js" crossorigin="anonymous"></script>
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+    <!-- fanceybox gallery -->
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css" /> 
+
+    <!-- Google Fonts Icon -->
+    
+
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title>{{page.title}}</title>
+
+    
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    {{site.data.head.frist-script-to-go-in-the-head}}
+    {{site.data.head.second-script-to-go-in-the-head}}
+    {{site.data.head.thrid-script-to-go-in-the-head}}
+
 </head>
 
 <body>
