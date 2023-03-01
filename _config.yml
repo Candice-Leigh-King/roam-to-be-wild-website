@@ -43,4 +43,13 @@ _array_structures:
         value: 
           _section-type: space-block
           background-color: 
+      - label: Space
+        icon: block
+        value:
+          _section-type: text-on-the-left
+          heading: 
+          sub-heading: 
+          textarea_html: 
+          image: 
+          content-block-id: 
       

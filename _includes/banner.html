@@ -1,7 +1,13 @@
 <section id="content-blocks-{{forloop.index0}}">
-    <section class = "grid-middle tall-70 background-image id = "{{item.content-block-id}}" style = "background-image: url('/images/banner.jpg');">
-        <a href = "#" class = "col-4-center bg-blue"><img src = "/images/logo.PNG"></a>
-        <h3>adventure with purpose</h3>
-        <a class = "button" href = "#">LET'S GO!</a>
+    <section class = "grid-center tall-70 background-image banner-image" id = "{{item.content-block-id}}" style = "background-image: url('{{item.banner_image}}');">
+        <div class = "col-12 grid-center">
+            <a href = "#" class = "col-2-bottom padded-xsm text-center bg-blue logo"><img src = "{{item.logo_image}}" width = "100%"></a>
+        </div>
+        
+        <div class = "col-12 banner-text text-center">
+            <h3>{{item.sub-heading}}</h3>
+            <a class = "button" href = "{{item.button-link}}">{{item.call-to-action}}</a>
+        </div>
+        
     </section>
 </section>

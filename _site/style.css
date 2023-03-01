@@ -9,11 +9,11 @@
 
 /* To be Deleted */ 
 
-div, section, nav, header, footer {border: 1px solid red;}
+/* div, section, nav, header, footer {border: 1px solid red;}
 h3, h4, h5, h6 {border: 1px solid yellow;}
 h1, h2 {border: 1px solid grey;}
 p, a{border: 1px solid pink;}
-hr, img{border: 1px solid blue;} 
+hr, img{border: 1px solid blue;}  */
 
 /* General Code Starts here */
 * {
@@ -94,7 +94,6 @@ p {
 a{
     text-decoration: none;
     color: inherit;
-    display: inline-block;
 }
 
 h2:last-child, 
@@ -344,4 +343,115 @@ html
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
+}
+
+.bg-blue{
+  background-color: var(--button-color);
+}
+
+.bg-base{
+  background-color: var(--base-color);
+}
+
+/* Buttons and Links */
+
+.button{
+  background-color: var(--button-color);
+  padding: 0.5% 2.5%;
+  transition: 0.5s all;
+  color: #ffffff;
+}
+
+.button:hover{
+  background-color: var(--accent-color-2);
+}
+
+
+/* Header */
+/* 
+.sticky-header{
+  position: fixed;
+  z-index: 2;
+} */
+
+.menu-button {
+  cursor: pointer;
+  padding: 0 0.5rem;
+  display: inline-block;
+  font-weight: 200;
+  font-size: 5rem;
+  line-height: 0.8;
+  margin-top: -0.7rem;
+  position: fixed;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 2;
+}
+
+/* For menu to not show in desktop */
+.mobile-menu {
+  display: none; 
+  background-color: var(--base-color); 
+  padding: 5%;
+  position: fixed; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+
+.mobile-menu a {
+  text-decoration: none; 
+  color: var(--accent-color-2);
+  padding: 2vh 5%;
+  display: block;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.mobile-menu a:hover { 
+  color: var(--accent-color-1);
+}
+
+/* Banner Content Block */
+
+.logo{
+  display:block;
+  padding: 0.5% 3.5%;
+}
+
+.banner-image{
+  min-height: 70vh;
+}
+
+.banner-text h3{
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.banner-text .button{
+  display: inline-block;
+}
+
+
+/* Text On the Left */
+
+.text-on-the-left-image{
+  min-height: 70vh;
+}
+
+.text-on-the-left h1 {
+  font-size: 3rem;
+  translate: 54% -85%;
+}
+
+.text-on-the-left h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-on-the-left p {
+  padding: 1% 8%;
 }
