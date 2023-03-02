@@ -455,3 +455,13 @@ html
 .text-on-the-left p {
   padding: 1% 8%;
 }
+
+/* text-in-middle */
+
+/* Portfolio */
+
+.slide-in-from-left .background-image,
+.slide-in-from-right .background-image,
+.slide-in-from-right .text{
+  min-height: 40vh;
+}
