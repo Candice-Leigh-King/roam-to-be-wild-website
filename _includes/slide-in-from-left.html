@@ -1,0 +1,15 @@
+<section id="content-blocks-{{forloop.index0}}">
+        <div class = "grid-left margin-tb padded-top padded-sides fade-left reveal" id="{{item.content-block-id}}">
+              <!-- image -->
+            <div class = "col-4_xs-12 bg-service relative-desktop service-img" style="background-image: url('{{item.image}}');"></div>
+              <!-- text -->
+             <div class = "col-6-middle_xs-12  padded-sm bg-tan relative-desktop center service-div service-2-div">
+                  <h2>{{item.heading}}</h2>
+                  <p class="">{{item.textarea_html}}</p>
+             </div>
+              <!-- squiggle -->
+            <div class = "col-2-middle_xs-4 center relative-desktop service-squiggle service-right-squiggle">
+                <img src = "{{item.icon}}">
+            </div>
+          </div>
+</section>

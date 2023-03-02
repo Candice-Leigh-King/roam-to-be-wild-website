@@ -1,13 +1,12 @@
 <section id="content-blocks-{{forloop.index0}}">
     <section class = "grid tall-70 text-on-the-left bg-base" id = "{{item.content-block-id}}">
         <div class = "col-6-middle text-center padded-sm">
-            <h1>BONJOUR</h1>
-            <h2>Hello! <br> I am Name Surname</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium blanditiis omnis cupiditate. Provident dolores quis sit, velit corporis, libero quod explicabo, veniam necessitatibus consectetur quae. Asperiores nam possimus pariatur rerum?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium blanditiis omnis cupiditate. Provident dolores quis sit, velit corporis, libero quod explicabo, veniam necessitatibus consectetur quae. Asperiores nam possimus pariatur rerum?
+            <h1>{{item.heading}}</h1>
+            <h2>{{item.sub-heading}}</h2>
+            <p>{{item.textarea_html}}
             </p>
         </div>
-        <div class = "col-6 background-image text-on-the-left-image" style = "background-image: url('/images/about-roam-to-be-wild.jpg');">
+        <div class = "col-6 background-image text-on-the-left-image" style = "background-image: url('{{item.image}}g');">
 
         </div>
     </section>
