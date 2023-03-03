@@ -9,11 +9,11 @@
 
 /* To be Deleted */ 
 
-div, section, nav, header, footer {border: 1px solid red;}
+/* div, section, nav, header, footer {border: 1px solid red;}
 h3, h4, h5, h6 {border: 1px solid yellow;}
 h1, h2 {border: 1px solid grey;}
 p, a{border: 1px solid pink;}
-hr, img{border: 1px solid blue;} 
+hr, img{border: 1px solid blue;}  */
 
 /* General Code Starts here */
 * {
@@ -66,6 +66,9 @@ body {
 
 h1,h2,h3,h4,h5,h6{
   font-family: Lovelace_Regular;
+  font-weight: 100;
+  color: rgb(83, 83, 83);
+  text-transform: uppercase;
 }
 p, a{
   font-family: The_Youngest_Serif;
@@ -73,7 +76,7 @@ p, a{
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 h2{
   font-size: 2rem;
@@ -93,6 +96,7 @@ p {
 
 a{
     text-decoration: none;
+    text-transform: uppercase;
     color: inherit;
 }
 
@@ -415,6 +419,8 @@ html
   color: var(--accent-color-1);
 }
 
+/* footer */
+
 /* Banner Content Block */
 
 .logo{
@@ -458,10 +464,46 @@ html
 
 /* text-in-middle */
 
-/* Portfolio */
+.text-in-the-middle .background-image{
+  min-height: 80vh;
+}
+
+.text-in-the-middle .button{
+  padding: 1.5% 5%;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+/* Slide in from left and right */
 
 .slide-in-from-left .background-image,
 .slide-in-from-right .background-image,
-.slide-in-from-right .text{
+.slide-in-from-right .text,
+.slide-in-from-left .text{
   min-height: 40vh;
+}
+
+
+.slide-in-from-right img{
+  translate: -180% -30%;
+}
+
+.slide-in-from-left img{
+  translate: 180% 30%;
+}
+
+.material-symbols-outlined{
+  font-size: 4rem;
+  color: var(--button-color);
+  transition: 0.5s all;
+}
+
+.material-symbols-outlined:hover{
+  color: var(--accent-color-2);
+}
+
+/* Heading-Block */
+
+.heading-block{
+  text-transform: uppercase;
 }
