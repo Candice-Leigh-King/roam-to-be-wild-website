@@ -421,6 +421,36 @@ html
 
 /* footer */
 
+.footer-social-nav a,
+.footer-social-nav-icons a{
+  color: rgb(83, 83, 83);
+  padding: 1% 2%;
+  margin: 1% 0.5%;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.footer-social-nav a:hover,
+.footer-social-nav-icons a:hover{
+  color: var(--accent-color-2)
+}
+
+.footer-social-nav i{
+  font-size: 1.5rem;
+}
+
+.footer-social-nav-icons{
+  margin-bottom: 1.5rem;
+}
+
+/* .footer-social-nav a{
+  background-image: url('/illustrations/thick-squiggle.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  min-height: 3%;
+} */
+
 /* Banner Content Block */
 
 .logo{
@@ -435,6 +465,7 @@ html
 .banner-text h3{
   font-size: 2rem;
   margin: 0.5rem 0;
+  color: #000000;
 }
 
 .banner-text .button{
@@ -507,3 +538,112 @@ html
 .heading-block{
   text-transform: uppercase;
 }
+
+
+/* Contact Block */
+
+.contact-block .background-image{
+  min-height: 80vh;
+  background-position: 0% 100%;
+}
+
+/* ---------------------------------//---------------------------- Contact Page ---------------------------------//---------------------------- */
+.contact h1{
+  /* color: var(--ivory); */
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.contact-img-1{
+  margin-bottom: -20%;
+  z-index: 10;
+  position: relative;
+  margin-left: 4%;
+}
+ .contact-icon-1{
+  margin-bottom: 10%;
+  margin-left: -10%;
+  translate: 100% -380%;
+} 
+.contact-img-2 {
+  margin-top: -15%;
+  margin-right: 7%;
+  z-index: 10;
+  position: relative;
+
+}
+
+
+
+
+
+/* Form */
+
+form input, 
+form textarea {
+  width: 80%;
+  margin: 0.5rem 5%;
+  padding: 0.5rem;
+  border-bottom: 2px solid var(--button-color);
+  background-color: var(--base-color);
+  outline: none;
+  font-family: The_Youngest_Serif;
+  font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+border-color: var(--button-color);
+}
+
+textarea {
+min-height: 2rem;
+margin-bottom: 3rem;
+border-color: none;
+}
+
+input, textarea{
+  border-color: var(--base-color);
+}
+
+form label {
+margin: 1rem 0 0 5%;
+text-align: left;
+display: block;
+color: rgb(83, 83, 83);
+}
+
+form button {
+border: none;
+padding: 0.5rem 2rem;
+letter-spacing: 0.1em;
+margin: 0.5rem 0;
+font-family: The_Youngest_Serif;
+font-size: 1.2rem;
+text-transform: uppercase;
+font-weight: 100;
+cursor: pointer;
+}
+
+/* form button:hover 
+{
+background-color: var(--ivory);
+color: var(--orange);
+
+} */
+
+/* Newsletter
+.mc-field-group label {
+font-family: 'Raleway';
+font-weight: 500;
+}
+
+.newsletter h2{
+font-family: Greycliff-Regular;
+color: var(--ivory);
+text-transform: uppercase;
+font-size: 2rem;
+} */

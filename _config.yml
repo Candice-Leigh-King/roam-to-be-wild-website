@@ -105,4 +105,16 @@ _array_structures:
           call-to-action: 
           right_image: 
           content-block-id: 
+      - label: Text in the middle
+        icon: view_column
+        value:
+          _section-type: text-in-the-middle 
+          left_image: 
+          heading: 
+          textarea_html: 
+          button-link: 
+          call-to-action: 
+          right_image: 
+          content-block-id: 
+
             
