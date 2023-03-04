@@ -1,0 +1,46 @@
+<section id="content-blocks-{{forloop.index0}}">
+    <section class = "" id = "{{item.content-block-id}}">
+        <section class = "contact-block">
+            <section class = "grid background-image" style="background-image: url('{{item.background_image}}');">
+                <div class = "col-12 grid-left">
+                    <div class = "col-2 contact-img-1">
+                        <img src = "{{item.top-left_image}}" width = "120%" class = "contact-image-1">
+                        <img src = "{{item.top-left_illustration}}" width = "80%" class = "contact-icon-1">
+                    </div>
+                    
+                </div>
+                <div class = "col-12 grid-center text-center ">
+                    <div class = "col-8-middle_xs-12 bg-camel tall-40 padded text-center bg-base">
+                
+                        <h1>{{item.heading}}</h1>
+                        <!-- modify this form HTML and place wherever you want your form -->
+                        <!---------- Simple Contact Form Elements  ------------->
+                        <form method="post" action="/success.html">
+                        
+                            <label for="_name"> {{item.form-field-1_textarea_html}} </label>
+                            <input type="text" name="_name" id="_name" />
+                        
+                            <label for="_replyto"> {{item.form-field-2_textarea_html}} </label>
+                            <input type="email" name="_replyto" id="_replyto"/>
+                        
+                            <label for="message"> {{item.form-field-3_textarea_html}} </label>
+                            <textarea name="message" id="message"></textarea>
+            
+                            <input type="hidden" name="inbox_key" value="{{site.data.general.basics.email-address}}">
+                            <input type="text" name="_gotcha" style="display: none;" />
+                            <button class = "button" type="submit"> {{item.button_textarea_html}} </button>
+                            
+                        </form> 
+                    </div>
+                </div>
+            
+                <div class = "col-12 grid-right">
+                    <div class = "col-2 contact-img-2">
+                        <img src = "{{item.bottom-right_image}}" width = "120%" class = "contact-image-2">
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+    </section>
+</section>

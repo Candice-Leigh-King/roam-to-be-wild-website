@@ -1,59 +1,60 @@
 <section id="content-blocks-{{forloop.index0}}">
     <section class = "grid padded portfolio-block text-left mixed-gallery" id = "{{item.content-block-id}}" style = "background-color: #{{item.background-color}};">
-        <h2 class = "col-12 padded-t-1 padded-b-1">Sub heading</h2>
+        <h2 class = "col-12 padded-t-1 padded-b-1">{{item.sub-heading}}</h2>
         <section class = "col-6 grid">
             <!-- div -->
-            <div class = "col-12">
-                <div class = "landscape background-image"
-                style = "background-image: url('{{item.banner_image}}');" data-fancybox="gallery" href = "{{item.banner_image}}">
+            
+                <div class = "col-12 background-image"
+                style = "background-image: url('{{item.1_image}}'); padding-bottom: 42%; border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.1_image}}">
                     
                 </div>
-            </div>
+    
             
             <div class = "col-12 grid">
                 <!-- div -->
-                <div class = "col-6">
-                    <div class = "square background-image"
-                    style = "background-image: url('{{item.banner_image}}');" data-fancybox="gallery" href = "{{item.banner_image}}">
+     
+                    <div class = "col-6  background-image"
+                    style = "background-image: url('{{item.2_image}}'); padding-bottom: 40%; border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.2_image}}">
                         
                     </div>
-                </div>
+   
                 
                 <!-- div -->
-                <div class = "col-6">
-                    <div class = "square background-image"
-                    style = "background-image: url('{{item.banner_image}}');" data-fancybox="gallery" href = "{{item.banner_image}}">
+              
+                    <div class = "col-6  background-image"
+                    style = "background-image: url('{{item.3_image}}'); padding-bottom: 40%; border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.3_image}}">
                         
                     </div>
-                </div>
+         
                 
             </div>
         </section>
         <section class = "col-6 grid">
             <!-- div -->
-            <div class = "col-6">
-                <div class = " portrait background-image"
-                style = "background-image: url('{{item.banner_image}}');" data-fancybox="gallery" href = "{{item.banner_image}}">
+    
+                <div class = "col-6 background-image"
+                style = "background-image: url('{{item.4_image}}'); padding-bottom: 100%; border: 1.5px solid #{{item.border-color}};
+                " data-fancybox="gallery" href = "{{item.4_image}}">
                     
                 </div>
-            </div>
+ 
             
             <div class = "col-6 grid">
                 <!-- div -->
-                <div class = "col-12">
-                    <div class = "square background-image"
-                    style = "background-image: url('{{item.banner_image}}');" data-fancybox="gallery" href = "{{item.banner_image}}">
+       
+                    <div class = "col-12  background-image"
+                    style = "background-image: url('{{item.5_image}}'); padding-bottom: 40%; border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.5_image}}">
                         
                     </div>
-                </div>
+
                 
                 <!-- div -->
-                <div class = "col-12">
-                    <div class = "square background-image"
-                    style = "background-image: url('{{item.banner_image}}');" data-fancybox="gallery" href = "{{item.banner_image}}">
+    
+                    <div class = "col-12  background-image"
+                    style = "background-image: url('{{item.6_image}}'); padding-bottom: 40%; border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.6_image}}">
                         
                     </div>
-                </div>
+
                 
             </div>
         </section>

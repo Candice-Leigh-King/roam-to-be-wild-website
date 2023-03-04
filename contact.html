@@ -8,45 +8,15 @@ seo:
   url: 
   social-share_image:
 content-blocks:
+    - _section-type: contact-block
+      background_image: /images/portfolio-3.jpg
+      top-left_image: /images/about-roam-to-be-wild.jpg
+      top-left_illustration: /illustrations/thin-squiggle.png
+      heading: Contact Me
+      form-field-1_textarea_html: Name and Surname 
+      form-field-2_textarea_html: Email
+      form-field-3_textarea_html: What Service do you require?
+      button_textarea_html: Send
+      bottom-right_image: /images/portfolio-5.jpg
+      content-block-id:     
 ---
-<section class = "contact-block">
-    <section class = "grid background-image" style="background-image: url('/images/portfolio-3.jpg');">
-        <div class = "col-12 grid-left">
-            <div class = "col-2 contact-img-1">
-                <img src = "/images/about-roam-to-be-wild.jpg" width = "120%" class = "contact-image-1">
-                <img src = "/illustrations/thin-squiggle.png" width = "80%" class = "contact-icon-1">
-            </div>
-            
-        </div>
-        <div class = "col-12 grid-center text-center ">
-            <div class = "col-8-middle_xs-12 bg-camel tall-40 padded text-center bg-base">
-        
-                <h1>Contact Me</h1>
-                <!-- modify this form HTML and place wherever you want your form -->
-                <!---------- Simple Contact Form Elements  ------------->
-                <form method="post" action="/success.html">
-                
-                    <label for="_name"> Name and Surname </label>
-                    <input type="text" name="_name" id="_name" />
-                
-                    <label for="_replyto"> Email </label>
-                    <input type="email" name="_replyto" id="_replyto"/>
-                
-                    <label for="message"> What Service Do You Require? </label>
-                    <textarea name="message" id="message"></textarea>
-    
-                    <input type="hidden" name="inbox_key" value="{{site.data.general.basics.email-address}}">
-                    <input type="text" name="_gotcha" style="display: none;" />
-                    <button class = "button" type="submit"> Send </button>
-                    
-                </form> 
-            </div>
-        </div>
-    
-        <div class = "col-12 grid-right">
-            <div class = "col-2 contact-img-2">
-                <img src = "/images/portfolio-5.jpg" width = "120%" class = "contact-image-2">
-            </div>
-        </div>
-    </section>
-</section>

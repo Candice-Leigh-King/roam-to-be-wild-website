@@ -62,56 +62,73 @@
 </head>
 
 <body>
-    <header class = " sticky-header grid-right padded-sm">
-        <nav class = "col-3">
-            <a class = "hamburger-button">Menu</a>
-        </nav>
-        <nav class = "col-12 mobile-menu center">
-          <a href = "#">About</a>
-          <a href = "#">What I Do</a>
-          <a href = "#">Porftfolio</a>
-          <a href = "#">Contact</a>
-        </nav>
-    </header>
-      <section class = "contact-block">
-    <section class = "grid background-image" style="background-image: url('/images/portfolio-3.jpg');">
-        <div class = "col-12 grid-left">
-            <div class = "col-2 contact-img-1">
-                <img src = "/images/about-roam-to-be-wild.jpg" width = "120%" class = "contact-image-1">
-                <img src = "/illustrations/thin-squiggle.png" width = "80%" class = "contact-icon-1">
-            </div>
-            
-        </div>
-        <div class = "col-12 grid-center text-center ">
-            <div class = "col-8-middle_xs-12 bg-camel tall-40 padded text-center bg-base">
+    <header class = " sticky-header page-nav grid-right padded-sm">
+      <nav class = "col-3">
+        <a class = "hamburger">Menu</a>
+      </nav>
+      <div class = "page-nav">
         
-                <h1>Contact Me</h1>
-                <!-- modify this form HTML and place wherever you want your form -->
-                <!---------- Simple Contact Form Elements  ------------->
-                <form method="post" action="/success.html">
-                
-                    <label for="_name"> Name and Surname </label>
-                    <input type="text" name="_name" id="_name" />
-                
-                    <label for="_replyto"> Email </label>
-                    <input type="email" name="_replyto" id="_replyto"/>
-                
-                    <label for="message"> What Service Do You Require? </label>
-                    <textarea name="message" id="message"></textarea>
-    
-                    <input type="hidden" name="inbox_key" value="">
-                    <input type="text" name="_gotcha" style="display: none;" />
-                    <button class = "button" type="submit"> Send </button>
+        <div class = "exit">
+          
+          <nav class = "col-12 mobile-menu center">
+            <a href = "#">About</a>
+            <a href = "#">What I Do</a>
+            <a href = "#">Porftfolio</a>
+            <a href = "#">Contact</a>
+          </nav>
+        </div>
+      </div>
+      
+        
+    </header>
+      
+      
+      <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[0]">
+          <span class="cms-editor-button"></span>
+        <section id="content-blocks-0">
+    <section class = "" id = "">
+        <section class = "contact-block">
+            <section class = "grid background-image" style="background-image: url('/images/portfolio-3.jpg');">
+                <div class = "col-12 grid-left">
+                    <div class = "col-2 contact-img-1">
+                        <img src = "/images/about-roam-to-be-wild.jpg" width = "120%" class = "contact-image-1">
+                        <img src = "/illustrations/thin-squiggle.png" width = "80%" class = "contact-icon-1">
+                    </div>
                     
-                </form> 
-            </div>
-        </div>
-    
-        <div class = "col-12 grid-right">
-            <div class = "col-2 contact-img-2">
-                <img src = "/images/portfolio-5.jpg" width = "120%" class = "contact-image-2">
-            </div>
-        </div>
+                </div>
+                <div class = "col-12 grid-center text-center ">
+                    <div class = "col-8-middle_xs-12 bg-camel tall-40 padded text-center bg-base">
+                
+                        <h1>Contact Me</h1>
+                        <!-- modify this form HTML and place wherever you want your form -->
+                        <!---------- Simple Contact Form Elements  ------------->
+                        <form method="post" action="/success.html">
+                        
+                            <label for="_name"> Name and Surname </label>
+                            <input type="text" name="_name" id="_name" />
+                        
+                            <label for="_replyto"> Email </label>
+                            <input type="email" name="_replyto" id="_replyto"/>
+                        
+                            <label for="message"> What Service do you require? </label>
+                            <textarea name="message" id="message"></textarea>
+            
+                            <input type="hidden" name="inbox_key" value="">
+                            <input type="text" name="_gotcha" style="display: none;" />
+                            <button class = "button" type="submit"> Send </button>
+                            
+                        </form> 
+                    </div>
+                </div>
+            
+                <div class = "col-12 grid-right">
+                    <div class = "col-2 contact-img-2">
+                        <img src = "/images/portfolio-5.jpg" width = "120%" class = "contact-image-2">
+                    </div>
+                </div>
+            </section>
+        </section>
+        
     </section>
 </section>
 
