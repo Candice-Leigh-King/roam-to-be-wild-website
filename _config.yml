@@ -35,7 +35,8 @@ _array_structures:
           banner_image: 
           logo_image: 
           sub-heading: 
-          call-to-action: 
+          call-to-action:
+          logo-link:  
           button-link: 
           content-block-id: 
       - label: Space
@@ -58,6 +59,7 @@ _array_structures:
           _section-type: slide-in-from-right
           heading: 
           textarea_html: 
+          button-link: 
           image: 
           icon: 
           content-block-link:
@@ -66,7 +68,8 @@ _array_structures:
         value: 
           _section-type: slide-in-from-left
           heading: 
-          textarea_html: 
+          textarea_html:
+          button-link:  
           image: 
           icon: 
       - label: Recent Blogs
@@ -108,7 +111,7 @@ _array_structures:
       - label: Portfolio
         icon: view_comfy
         value:
-          _section-type: portfolio
+          _section-type: portfolio-block
           sub-heading:
           background-color:
           border-color:

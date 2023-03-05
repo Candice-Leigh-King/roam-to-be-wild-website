@@ -1,0 +1,7 @@
+colors:
+  background-color: '#F6F6E9'
+  text-color: '#B9AE91'
+  heading-color: '#B9AE91'
+fonts:
+  heading-font: Greycliff-Medium
+  subheading-font: Greycliff-Regular

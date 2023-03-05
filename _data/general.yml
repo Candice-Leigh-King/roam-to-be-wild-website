@@ -1,0 +1,18 @@
+basics:
+  logo_image: /images/logo-2.png
+  logo-alt: Chicken Chaser Bri Logo
+  your-brand-name: Chicken Chaser
+  your-url: chickenchaserbri.com
+  email-address: 
+  browser-tag_image: /images/logo-2.png
+  summary-of-brand: 
+social-links:
+  instagram:  https://www.instagram.com/chickenchaserbri/
+  facebook: 
+  tik-tok: https://www.tiktok.com/@chickenchaserbri
+  youtube: https://www.youtube.com/@chickenchaserbri
+social-links-icons:
+  instagram: <i class="fa-brands fa-instagram"></i>
+  facebook: <i class="fa-brands fa-facebook"></i>
+  youtube: <i class="fa-brands fa-youtube"></i>
+  tik-tok: <i class="fa-brands fa-tiktok"></i>

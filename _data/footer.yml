@@ -1,0 +1,18 @@
+cta: 
+background-image: 
+shop-requirements:
+  terms-and-conditions-heading: Ts & Cs
+  terms-and-conditions-link: /ts-cs
+  privacy-heading: Privacy Policy
+  privacy-link: /privacy-policy
+footer-navigation:
+  column-1:
+    textarea_html: >-
+      <p><a href="#banner">Home</a></p>
+      <p><a href="#featured-products">Shop</a></p>
+      <p><a href="#about">Meet Bri</a></p>
+  column-2:
+    textarea_html: >-
+      <p><a href="#featured-blog">Recent Blogs</a></p>
+      <p><a href="#what-i-do">What I Do</a></p>
+      <p><a href="/contact">Contact Me</a></p>
