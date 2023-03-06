@@ -121,10 +121,10 @@ _array_structures:
           5_image:
           6_image:
           content-block-id: 
-      - label: Contact
+      - label: form
         icon: mail
         value:
-          _section-type: contact-block
+          _section-type: form
           background_image: 
           top-left_image: 
           top-left_illustration: 
