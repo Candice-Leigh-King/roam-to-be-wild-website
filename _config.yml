@@ -17,9 +17,15 @@ _inputs:
       italic: true
       strike: true
       underline: true 
+      link: true
       bulletedlist: true
       numberedlist: true
       horizontalrule: true
+      styles: /custom-styles.css
+      left: left
+      center: center
+      right: right
+      justify: justify
       image: true
       undo: true
       redo: true
@@ -71,30 +77,11 @@ _array_structures:
           button-link:  
           image: 
           icon: 
-      - label: Recent Blogs
-        icon: view_column
-        value:
-          _section-type: recent-blogs
-          heading:
-          colors:
-            background-color:
-            heading-color: 
-            blog-title-card-color:
-            blog-title-card-border-color: 
-            blog-hover-overlay-color: 
-            text-color:
-            subheading-color:
-            cta-color:
-          fonts:
-            text-font: 
-            heading-font: 
-            subheading-font: 
-            cta-font:
       - label: Heading
         icon: position_top_right
         value:
           _section-type: heading
-          heading:
+          textarea:
           background-color: 
       - label: Text in the middle
         icon: width-wide
