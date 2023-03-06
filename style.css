@@ -841,10 +841,23 @@ cursor: pointer;
   .text-in-the-middle{
     margin-bottom: 8%;
   }
+/* footer */
+  .footer-social-nav a, .footer-social-nav-icons a {
+    color: rgb(83, 83, 83);
+    padding: 0.5% 1%;
+    margin: 0.5% 0.5%;
+    font-size: 0.8rem;
+    display: inline-block;
+  }
+
+  .footer-social-nav-icons {
+    margin: 0.5rem;
+  }
+
+  .shop-requirements a{
+    font-size: 0.8rem;
+  }
 }
-
-
-
 
 
 /* Extra Small Screen */
