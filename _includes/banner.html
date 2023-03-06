@@ -1,13 +1,16 @@
 <section id="content-blocks-{{forloop.index0}}">
-    <section class = "grid-center tall-70 padded-lg background-image banner-image" id = "{{item.content-block-id}}" style = "background-image: url('{{item.banner_image}}');">
-        <div class = "col-12 grid-center">
-            <img class = "col-2-bottom padded-xsm text-center bg-blue logo"src = "{{item.logo_image}}" width = "100%">
+    <section class = "grid-center tall-70  background-image banner-image" id = "{{item.content-block-id}}" style = "background-image: url('{{item.banner_image}}');">
+        <div class = "overlay padded-lg col-12 grid-center">
+            <div class = "col-12 grid-center">
+                <img class = "col-2_sm-4-bottom padded-xsm text-center bg-blue logo"src = "{{item.logo_image}}" width = "100%">
+            </div>
+            
+            <div class = "col-12 banner-text text-center">
+                <h3>{{item.sub-heading}}</h3>
+                <a class = "button" href = "{{item.button-link}}">{{item.call-to-action}}</a>
+            </div>
         </div>
         
-        <div class = "col-12 banner-text text-center">
-            <h3>{{item.sub-heading}}</h3>
-            <a class = "button" href = "{{item.button-link}}">{{item.call-to-action}}</a>
-        </div>
         
     </section>
 </section>

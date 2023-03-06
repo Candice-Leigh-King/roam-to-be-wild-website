@@ -1,13 +1,14 @@
 <section id="content-blocks-{{forloop.index0}}">
-    <section class = "grid bg-base text-in-the-middle" id = "{{item.content-block-id}}">
-        <div class = "col-2 background-image" style = "background-image: url('{{item.left_image}}');"></div>
+    <section class = " grid bg-base text-in-the-middle" id = "{{item.content-block-id}}">
+            <div class = "col-2_xs-12 overlay-mob background-image" style = "background-image: url('{{item.left_image}}');"></div>
+        
 
-        <div class = "col-8-middle text-center padded">
+        <div class = "col-8_xs-12-right text text-center padded">
             <h1 class = "margin-b-1">{{item.heading}}</h1>
             <p class = "padded-sides">{{item.textarea_html}}</p>
             <a href = "item.button-link" class = "button">{{item.call-to-action}}</a>
         </div>
-        <div class = "col-2 background-image" style = "background-image: url('{{item.right_image}}');">
+        <div class = "col-2_xs-4-right background-image mob-hide" style = "background-image: url('{{item.right_image}}');">
         </div>
     </section>
 </section>
