@@ -7,6 +7,8 @@ $(document).ready(function() {
 	  $(".mobile-menu").fadeToggle();
 		});
 
+
+
 // put class of exit on elements to make them navigate back to page-nav
 			$(".exit").click(function(){
 

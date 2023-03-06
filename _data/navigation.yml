@@ -1,7 +1,5 @@
 textarea_html: >-
-    <p><a href="/#banner">Home</a></p>
-    <p><a href="/#featured-products">Shop</a></p>
-    <p><a href="/#about">Meet Bri</a></p>
-    <p><a href="/#featured-blog">Recent Blogs</a></p>
-    <p><a href="/#what-i-do">What I Do</a></p>
-    <p><a href="/contact">Contact Me</a></p>
+    <p><a href="/#about">About</a></p>
+    <p><a href="/#what-i-do">What I do</a></p>
+    <p><a href="/portfolio.html">Portfolio</a></p>
+    <p><a href="/contact.html">Contact</a></p>

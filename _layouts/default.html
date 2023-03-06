@@ -66,17 +66,23 @@
       <nav class = "col-3">
         <a class = "hamburger">Menu</a>
       </nav>
-      <div class = "page-nav">
-        
-        <div class = "exit">
+      <div class = "grid-center mobile-menu page-nav">
+          <div class = "col-2">
+            <a href = "/#home"><img class = "padded-xsm logo"src = "{{site.data.general.basics.logo_image}}" width = "100%"></a>
+          </div>
+          <div class = "col-10 grid-left padded-sm exit">
+            <nav class = "col-6 text-center" style="justify-content: center; margin: 0 35%;">
+              <p>{{site.data.navigation.textarea_html}}</p>
+            </nav>
+            <nav class = "col-6 text-center footer-social-nav-icons" style="justify-content: center; margin: 0 35%;">
+  
+              <a href = "{{site.data.general.social-links.facebook}}"> {{site.data.general.social-links-icons.facebook}} </a>
+              <a href = "{{site.data.general.social-links.instagram}}">{{site.data.general.social-links-icons.instagram}}</a>
+              <a href = "{{site.data.general.social-links.youtube}}"> {{site.data.general.social-links-icons.youtube}} </a>
+              <a href = "{{site.data.general.social-links.tik-tok}}"> {{site.data.general.social-links-icons.tik-tok}} </a>
+            </nav>
+          </div>
           
-          <nav class = "col-12 mobile-menu center">
-            <a href = "#">About</a>
-            <a href = "#">What I Do</a>
-            <a href = "#">Porftfolio</a>
-            <a href = "#">Contact</a>
-          </nav>
-        </div>
       </div>
       
         
@@ -91,22 +97,22 @@
       <footer class = "bg-white">
         <div class ="grid-center">
           <nav class = "col-6 text-center footer-social-nav-icons">
-            <a href = "#"> <i class="fa-brands fa-facebook"></i> </a>
-            <a href = "#"> <i class="fa-brands fa-instagram"></i> </a>
-            <a href = "#"> <i class="fa-brands fa-youtube"></i> </a>
-            <a href = "#"> <i class="fa-brands fa-tiktok"></i> </a>
+            <a href = "{{site.general.social-links.facebook}}"> {{site.data.general.social-links-icons.facebook}} </a>
+            <a href = "{{site.general.social-links.instagram}}">{{site.data.general.social-links-icons.instagram}}</a>
+            <a href = "{{site.general.social-links.youtube}}"> {{site.data.general.social-links-icons.youtube}} </a>
+            <a href = "{{site.general.social-links.tik-tok}}"> {{site.data.general.social-links-icons.tik-tok}} </a>
           </nav>
         </div>
         <div class ="grid-center">
           <nav class = "col-8 grid-center text-center footer-social-nav">
-            <div class = "col-2 padded-xsm background-image" style = "background-image: url('/illustrations/thick-squiggle.png');">
-              <a href = "#">portfolio</a>
+            <div class = "col-3 padded-xsm background-image" style = "background-image: url('/illustrations/thick-squiggle.png');">
+              <p>{{site.data.footer.footer-navigation.link-1.textarea_html}}</p>
             </div>
-            <div class = "col-2 padded-xsm background-image" style = "background-image: url('/illustrations/thick-squiggle.png');">
-              <a href = "#">stays</a>
+            <div class = "col-3 padded-xsm background-image" style = "background-image: url('/illustrations/thick-squiggle.png');">
+              <p>{{site.data.footer.footer-navigation.link-2.textarea_html}}</p>
             </div>
-            <div class = "col-2 padded-xsm background-image" style = "background-image: url('/illustrations/thick-squiggle.png');">
-              <a href = "#">contact</a>
+            <div class = "col-3 padded-xsm background-image" style = "background-image: url('/illustrations/thick-squiggle.png');">
+              <p>{{site.data.footer.footer-navigation.link-3.textarea_html}}</p>
             </div>
             
             

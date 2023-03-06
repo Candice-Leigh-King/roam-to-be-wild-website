@@ -6,13 +6,12 @@ shop-requirements:
   privacy-heading: Privacy Policy
   privacy-link: /privacy-policy
 footer-navigation:
-  column-1:
+  link-1:
     textarea_html: >-
-      <p><a href="#banner">Home</a></p>
-      <p><a href="#featured-products">Shop</a></p>
-      <p><a href="#about">Meet Bri</a></p>
-  column-2:
+      <p><a href="/portfolio.html">Portfolio</a></p>
+  link-2:
     textarea_html: >-
-      <p><a href="#featured-blog">Recent Blogs</a></p>
-      <p><a href="#what-i-do">What I Do</a></p>
-      <p><a href="/contact">Contact Me</a></p>
+      <p><a href="/portfolio.html#real-estate-portfolio">Shop</a></p>
+  link-3:
+    textarea_html: >-
+      <p><a href="/contact">Contact</a></p>
