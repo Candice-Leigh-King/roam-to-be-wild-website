@@ -824,20 +824,6 @@ cursor: pointer;
 
   /* Text-in-the-middle */
 
-  .overlay-mob{
-    position: relative;
-  }
-
-  .overlay-mob::before{
-    content: ""; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(178, 176, 176, 0.64);
-  }
-
   .text-in-the-middle .background-image {
     border-radius: 100%;
     padding-bottom: 100%;
@@ -848,7 +834,7 @@ cursor: pointer;
 
   .text-in-the-middle .text{
     text-align: right;
-    padding-left: 25%;
+    padding-left: 47%;
     vertical-align: middle;
   }
 
