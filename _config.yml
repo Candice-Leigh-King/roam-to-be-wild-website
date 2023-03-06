@@ -40,7 +40,7 @@ _array_structures:
           _section-type: hero
           hero_image: 
           logo_image: 
-          sub-heading: 
+          subheading: 
           call-to-action:
           button-link: 
           content-block-id: 
@@ -54,7 +54,7 @@ _array_structures:
         value:
           _section-type: text-on-the-left
           heading: 
-          sub-heading: 
+          subheading: 
           textarea_html: 
           image: 
           content-block-id: 
@@ -77,11 +77,11 @@ _array_structures:
           button-link:  
           image: 
           icon: 
-      - label: Heading
+      - label: Plain Text Area
         icon: position_top_right
         value:
-          _section-type: heading
-          textarea:
+          _section-type: plain-text-area
+          textarea_html:
           background-color: 
       - label: Text in the middle
         icon: width-wide
@@ -98,7 +98,7 @@ _array_structures:
         icon: view_comfy
         value:
           _section-type: portfolio-block
-          sub-heading:
+          subheading:
           background-color:
           border-color:
           1_image:
