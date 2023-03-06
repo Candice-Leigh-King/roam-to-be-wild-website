@@ -28,11 +28,11 @@ page_blocks: []
 _array_structures:
   content-blocks:
     values:
-      - label: Banner
+      - label: Hero
         icon: star
         value: 
-          _section-type: banner
-          banner_image: 
+          _section-type: hero
+          hero_image: 
           logo_image: 
           sub-heading: 
           call-to-action:
