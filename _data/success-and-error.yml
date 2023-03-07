@@ -1,7 +1,7 @@
 colors:
-  background-color: '#F6F6E9'
-  text-color: '#B9AE91'
-  heading-color: '#B9AE91'
+  background-color: '#E2E4E6'
+  text-color: '#000000'
+  heading-color: '#C09D8A'
 fonts:
-  heading-font: Greycliff-Medium
-  subheading-font: Greycliff-Regular
+  heading-font: Lovelace_Regular;
+  subheading-font: Lovelace_Italic;
