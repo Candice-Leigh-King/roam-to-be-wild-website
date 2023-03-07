@@ -445,6 +445,13 @@ html
   display: inline-block;
 }
 
+.iconify{
+  font-size: 2rem;
+  padding: 5%;
+  border: 2px solid;
+  border-radius: 100%;
+}
+
 /* footer */
 
 .footer-social-nav a,
@@ -506,7 +513,7 @@ html
 /* Text On the Left */
 
 .text-on-the-left-image{
-  min-height: 70vh;
+  min-height: 100vh;
 }
 
 .text-on-the-left h1 {
@@ -526,7 +533,7 @@ html
 /* text-in-middle */
 
 .text-in-the-middle .background-image{
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .text-in-the-middle .button{
@@ -538,9 +545,7 @@ html
 /* Slide in from left and right */
 
 .slide-in-from-left .background-image,
-.slide-in-from-right .background-image,
-.slide-in-from-right .text,
-.slide-in-from-left .text{
+.slide-in-from-right .background-image{
   min-height: 40vh;
 }
 
