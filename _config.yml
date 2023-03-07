@@ -106,7 +106,10 @@ _array_structures:
           3_image:
           4_image:
           5_image:
-          6_image:
+          call-to-action-background:
+          textarea_html: 
+          call-to-action: 
+          call-to-action-link: 
           content-block-id: 
       - label: form
         icon: mail
@@ -122,6 +125,7 @@ _array_structures:
           button_textarea_html: 
           bottom-right_image: 
           content-block-id:
+
 
 
             
