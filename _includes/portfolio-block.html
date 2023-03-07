@@ -33,7 +33,7 @@
             <!-- div -->
     
                 <div class = "col-6_sm-12 background-image portfolio-4"
-                style = "background-image: url('{{item.4_image}}');  border: 1.5px solid #{{item.border-color}};
+                style = "background-image: url('{{item.4_image}}');  border: 1.5px solid {{item.border-color}};
                 " data-fancybox="gallery" href = "{{item.4_image}}">
                     
                 </div>
@@ -51,7 +51,7 @@
                 <!-- div -->
     
                     <div class = "col-12 text-center call-to-action padded background-image"
-                    style = "background-color: #{{item.call-to-action-background-color}}; border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery">
+                    style = "background-color: {{item.call-to-action-background-color}}; border: 1.5px solid {{item.border-color}};" data-fancybox="gallery">
                         <p>{{item.textarea_html}}</p>
                         <a class = "button" href = "{{item.call-to-action-link}}">{{item.call-to-action}}</a>
                     </div>
