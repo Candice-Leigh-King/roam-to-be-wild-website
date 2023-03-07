@@ -672,7 +672,7 @@ input, textarea{
 }
 
 form label {
-margin: 1rem 0 0 5%;
+margin: 1rem 0 0 11%;
 text-align: left;
 display: block;
 color: rgb(83, 83, 83);
@@ -847,6 +847,10 @@ cursor: pointer;
   .portfolio-block h2{
     font-size: 1.2rem;
   }
+
+  .portfolio-1, .portfolio-2, .portfolio-3 {
+    padding-bottom: 20rem;
+}
   /* contact block */
 
   .contact-block h1{
@@ -918,6 +922,16 @@ cursor: pointer;
   .text-in-the-middle{
     margin-bottom: 8%;
   }
+
+  /* portfolio block */
+
+  .portfolio-1, .portfolio-2, .portfolio-3 {
+    padding-bottom: 13rem;
+    }
+
+    .portfolio-4 {
+      padding-bottom: 15rem;
+    }
 /* footer */
   .footer-social-nav a{
     padding: 0.5% 1%;
@@ -958,6 +972,7 @@ cursor: pointer;
     .text-in-the-middle .text {
     padding-left: 0%;
     }
+
 
     
 }
