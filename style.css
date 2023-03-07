@@ -941,10 +941,12 @@ cursor: pointer;
     margin: 0.5% 1%;
   }
 
-  svg .iconify{
-    width: 30;
-    height: 30;
-  }
+
+  /* Contact Block */
+
+  .contact-block h1 {
+    font-size: 1.5rem;
+}
 }
 
 
