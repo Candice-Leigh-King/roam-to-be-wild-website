@@ -1,5 +1,5 @@
 <section id="content-blocks-{{forloop.index0}}">
-    <section class = "grid padded portfolio-block text-left mixed-gallery" id = "{{item.content-block-id}}" style = "background-color: #{{item.background-color}};">
+    <section class = "grid padded portfolio-block text-left mixed-gallery" id = "{{item.content-block-id}}" style = "background-color: {{item.background-color}};">
         <h2 class = "col-12 padded-t-1 padded-b-1">{{item.subheading}}</h2>
         <section class = "col-6_sm-12 grid">
             <!-- div -->
@@ -14,7 +14,7 @@
                 <!-- div -->
      
                     <div class = "col-6  background-image portfolio-2"
-                    style = "background-image: url('{{item.2_image}}');  border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.2_image}}">
+                    style = "background-image: url('{{item.2_image}}');  border: 1.5px solid {{item.border-color}};" data-fancybox="gallery" href = "{{item.2_image}}">
                         
                     </div>
    
@@ -22,7 +22,7 @@
                 <!-- div -->
               
                     <div class = "col-6  background-image portfolio-3"
-                    style = "background-image: url('{{item.3_image}}');  border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.3_image}}">
+                    style = "background-image: url('{{item.3_image}}');  border: 1.5px solid {{item.border-color}};" data-fancybox="gallery" href = "{{item.3_image}}">
                         
                     </div>
          
@@ -33,7 +33,7 @@
             <!-- div -->
     
                 <div class = "col-6_sm-12 background-image portfolio-4"
-                style = "background-image: url('{{item.4_image}}');  border: 1.5px solid #{{item.border-color}};
+                style = "background-image: url('{{item.4_image}}');  border: 1.5px solid {{item.border-color}};
                 " data-fancybox="gallery" href = "{{item.4_image}}">
                     
                 </div>
@@ -43,15 +43,15 @@
                 <!-- div -->
        
                     <div class = "col-12_sm-6  background-image portfolio-5"
-                    style = "background-image: url('{{item.5_image}}'); border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery" href = "{{item.5_image}}">
+                    style = "background-image: url('{{item.5_image}}'); border: 1.5px solid {{item.border-color}};" data-fancybox="gallery" href = "{{item.5_image}}">
                         
                     </div>
 
                 
                 <!-- div -->
     
-                    <div class = "col-12_sm-6 text-center call-to-action padded background-image"
-                    style = "background-color: #{{item.call-to-action-background}}; border: 1.5px solid #{{item.border-color}};" data-fancybox="gallery">
+                    <div class = "col-12 text-center call-to-action padded background-image"
+                    style = "background-color: {{item.call-to-action-background-color}}; border: 1.5px solid {{item.border-color}};" data-fancybox="gallery">
                         <p>{{item.textarea_html}}</p>
                         <a class = "button" href = "{{item.call-to-action-link}}">{{item.call-to-action}}</a>
                     </div>
