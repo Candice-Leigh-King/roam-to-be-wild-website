@@ -455,6 +455,8 @@ html
   margin-bottom: 1.5rem;
 }
 
+.footer-social-nav .background-image { background-size: contain;}
+
 .shop-requirements a{
   font-size: 0.8rem;
   display: inline-block;
@@ -465,6 +467,8 @@ html
 .shop-requirements a:hover{
   color: var(--accent-color-2);
 }
+
+
 
 
 /* Banner Content Block */
@@ -891,7 +895,6 @@ cursor: pointer;
   }
 
   .text-in-the-middle .text{
-    text-align: right;
     padding-left: 47%;
     vertical-align: middle;
   }
@@ -925,6 +928,7 @@ cursor: pointer;
   .footer-social-nav-icons {
     margin: 0.5rem;
   }
+
 
   .shop-requirements a{
     font-size: 0.8rem;
