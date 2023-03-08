@@ -186,9 +186,18 @@ html
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
 
-/* ------------------------// ------------------------- Animation -------------------------- // --------------------- */
+/* ---------ANNIMATION--------- */
 
-/* IMAGE  */
+/* on scroll */
+.reveal 
+  {
+  opacity: 0;
+  transition: 3s all ease;
+  }
+
+.reveal.active 
+  {opacity: 1;}
+
 @keyframes fadeIn {
   from {
       /* transform: translate3d(0,40px,0) */
@@ -279,38 +288,6 @@ html
     }
 }
 
-.active.fade-down-1 {animation: fade-down-1 1s ease-in;}
-
-@keyframes fade-down-1
-{
-  0%
-    {
-    transform: translateY(-20px);
-    opacity: 0;
-    }
-  50%
-    {
-    transform: translateY(0);
-    opacity: 1;
-    }
-}
-
-.active.fade-down-2 {animation: fade-down-2 1s ease-in;}
-
-@keyframes fade-down-2
-{
-  0%
-    {
-    transform: translateY(-20px);
-    opacity: 0;
-    }
-  75%
-    {
-    transform: translateY(0);
-    opacity: 1;
-    }
-}
-
 
 .active.fade-left {animation: fade-left 1s ease-in;}
 
@@ -343,7 +320,6 @@ html
     opacity: 1;
     }
 }
-
 
 
 /* Backgrounds */
