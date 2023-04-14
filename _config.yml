@@ -110,7 +110,7 @@ _array_structures:
           icon_image: /illustrations/thick-squiggle.png
           content-block-link: portfolio-2
       - label: Text in the middle
-        icon: width-wide
+        icon: favorite
         value:
           _section-type: text-in-the-middle
           left_image: /images/what-i-do-1.webp
