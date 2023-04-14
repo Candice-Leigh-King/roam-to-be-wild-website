@@ -126,7 +126,7 @@ _array_structures:
             Non dicta asperiores fuga optio? Fugiat ullam fugit nulla, maiores
             molestiae quas nostrum recusandae ut inventore harum et enim maxime quasi
             voluptatibus.</p>
-          button-link: contact.html
+          button-link: /contact
           call-to-action: contact me
           right_image: /images/what-i-do-2.webp
           content-block-link: what-i-do
