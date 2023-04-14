@@ -1,5 +1,5 @@
-cta: 
-background-image: 
+cta:
+background-image:
 shop-requirements:
   terms-and-conditions-heading: Ts & Cs
   terms-and-conditions-link: /ts-cs
@@ -7,11 +7,10 @@ shop-requirements:
   privacy-link: /privacy-policy
 footer-navigation:
   link-1:
-    textarea_html: >-
-      <p><a href="/portfolio.html">Portfolio</a></p>
+    textarea_html: <p><a href="/portfolio.html">Portfolio</a></p>
   link-2:
     textarea_html: >-
-      <p><a href="/portfolio.html#real-estate-portfolio">Stays</a></p>
+      <p><a target="_blank" rel="noopener"
+      href="https://www.roamtobewild.com/">Stays</a></p>
   link-3:
-    textarea_html: >-
-      <p><a href="/contact">Contact</a></p>
+    textarea_html: <p><a href="/contact">Contact</a></p>
