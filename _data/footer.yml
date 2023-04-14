@@ -11,6 +11,6 @@ footer-navigation:
   link-2:
     textarea_html: >-
       <p><a target="_blank" rel="noopener"
-      href="https://www.roamtobewild.com/">Stays</a></p>
+      href="www.roamtobewild.com">Stays</a></p>
   link-3:
     textarea_html: <p><a href="/contact">Contact</a></p>

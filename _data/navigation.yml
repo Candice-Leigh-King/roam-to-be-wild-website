@@ -1,5 +1,4 @@
 textarea_html: >-
-    <p><a href="/#about">About</a></p>
-    <p><a href="/#what-i-do">What I do</a></p>
-    <p><a href="/portfolio.html">Portfolio</a></p>
-    <p><a href="/contact.html">Contact</a></p>
+  <p><a href="/#about">About</a></p><p><a href="/#what-i-do">What I
+  do</a></p><p><a href="/portfolio.html">Portfolio</a></p><p><a
+  href="/contact.html">Contact</a></p>
