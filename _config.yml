@@ -82,7 +82,7 @@ _array_structures:
           image: /images/about.webp
     content-block-link: about
       - label: Slide in from the Right 
-        icon: left_panel_open
+        icon: east
         value: 
           _section-type: slide-in-from-right
           heading: Travel
@@ -90,7 +90,7 @@ _array_structures:
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis totam,
             qui perferendis aut officiis sequi aspernatur cupiditate labore dolores
             molestiae fuga nesciunt voluptatibus saepe? Quam perferendis omnis iusto
-            repellendus.</p>
+            repellendus. </p>
           button-link: /portfolio.html#travel-portfolio
           image: /images/travel-1.webp
           icon_image: /illustrations/thick-squiggle.png
