@@ -108,19 +108,21 @@ _array_structures:
         icon: view_comfy
         value:
           _section-type: portfolio-block
-          subheading:
-          background-color:
-          border-color:
-          1_image:
-          2_image:
-          3_image:
-          4_image:
-          5_image:
-          call-to-action-background-color:
-          textarea_html: 
-          call-to-action: 
-          call-to-action-link: 
-          content-block-id: 
+          subheading: Travel Photography
+          gallery:
+            1_image: /images/travel-1.webp
+            2_image: /images/travel-2.webp
+            3_image: /images/travel-3.webp
+            4_image: /images/travel-4.webp
+            5_image: /images/travel-5.webp
+          textarea_html: <p>adventure with purpose</p>
+          call-to-action: Contact Me
+          call-to-action-link: /contact
+          colors:
+            call-to-action-background-color: '#c1d6df'
+            background-color: '#e2e4e6'
+            border-color: '#e2e4e6'
+          content-block-link: travel-portfolio
       - label: form
         icon: mail
         value:

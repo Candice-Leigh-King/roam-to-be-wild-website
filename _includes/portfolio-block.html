@@ -1,11 +1,17 @@
+<style>
+     #content-blocks-{{forloop.index0}} .portfolio-block {background-color: {{item.colors.background-color}};}
+     #content-blocks-{{forloop.index0}} .border {border: 1.5px solid {{item.colors.border-color}};}
+     #content-blocks-{{forloop.index0}} .button {background-color: {{item.colors.button-color}};}
+</style>
+
 <section id="content-blocks-{{forloop.index0}}">
-    <section class = "grid padded-sides portfolio-block text-left mixed-gallery" id = "{{item.content-block-link}}" style = "background-color: {{item.background-color}};">
+    <section class = "grid padded-sides portfolio-block text-left mixed-gallery" id = "{{item.content-block-link}}">
         <h2 class = "col-12 padded-t-1 padded-b-1">{{item.subheading}}</h2>
         <section class = "col-6_sm-12 grid">
             <!-- div -->
             
-                <div class = "col-12 background-image portfolio-1"
-                style = "background-image: url('{{item.1_image}}'); border: 1.5px solid {{item.border-color}};" data-fancybox="gallery" href = "{{item.1_image}}">
+                <div class = "col-12 background-image border portfolio-1"
+                style = "background-image: url('{{item.gallery.1_image}}');" data-fancybox="gallery" href = "{{item.gallery.1_image}}">
                     
                 </div>
     
@@ -13,16 +19,16 @@
             <div class = "col-12 grid">
                 <!-- div -->
      
-                    <div class = "col-6  background-image portfolio-2"
-                    style = "background-image: url('{{item.2_image}}');  border: 1.5px solid {{item.border-color}};" data-fancybox="gallery" href = "{{item.2_image}}">
+                    <div class = "col-6  background-image border portfolio-2"
+                    style = "background-image: url('{{item.gallery.2_image}}');" data-fancybox="gallery" href = "{{item.gallery.2_image}}">
                         
                     </div>
    
                 
                 <!-- div -->
               
-                    <div class = "col-6  background-image portfolio-3"
-                    style = "background-image: url('{{item.3_image}}');  border: 1.5px solid {{item.border-color}};" data-fancybox="gallery" href = "{{item.3_image}}">
+                    <div class = "col-6  background-image border portfolio-3"
+                    style = "background-image: url('{{item.gallery.3_image}}');" data-fancybox="gallery" href = "{{item.gallery.3_image}}">
                         
                     </div>
          
@@ -32,9 +38,8 @@
         <section class = "col-6_sm-12 grid">
             <!-- div -->
     
-                <div class = "col-6_sm-12 background-image portfolio-4"
-                style = "background-image: url('{{item.4_image}}');  border: 1.5px solid {{item.border-color}};
-                " data-fancybox="gallery" href = "{{item.4_image}}">
+                <div class = "col-6_sm-12 background-image border portfolio-4"
+                style = "background-image: url('{{item.gallery.4_image}}');" data-fancybox="gallery" href = "{{item.gallery.4_image}}">
                     
                 </div>
  
@@ -42,21 +47,19 @@
             <div class = "col-6_sm-12 grid">
                 <!-- div -->
        
-                    <div class = "col-12  background-image portfolio-5"
-                    style = "background-image: url('{{item.5_image}}'); border: 1.5px solid {{item.border-color}};" data-fancybox="gallery" href = "{{item.5_image}}">
+                    <div class = "col-12  background-image border portfolio-5"
+                    style = "background-image: url('{{item.gallery.5_image}}');" data-fancybox="gallery" href = "{{item.gallery.5_image}}">
                         
                     </div>
 
                 
                 <!-- div -->
     
-                    <div class = "col-12 center call-to-action padded background-image"
-                    style = "background-color: {{item.call-to-action-background-color}}; border: 1.5px solid {{item.border-color}};">
+                    <div class = "col-12 center call-to-action padded background-image border"
+                    style = "background-color: {{item.colors.call-to-action-background-color}};">
                         <p>{{item.textarea_html}}</p>
                         <a class = "button" href = "{{item.call-to-action-link}}">{{item.call-to-action}}</a>
                     </div>
-
-                
             </div>
         </section>
     </section>
