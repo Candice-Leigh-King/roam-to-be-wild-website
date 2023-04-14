@@ -38,12 +38,12 @@ _array_structures:
         icon: star
         value: 
           _section-type: hero
-          hero_image: 
-          logo_image: 
-          subheading: 
-          call-to-action:
-          button-link: 
-          content-block-id: 
+          hero_image: /images/banner.webp
+          logo_image: /images/logo.PNG
+          subheading: adventure with purpose
+          call-to-action: LET'S GO!
+          button-link: /#about 
+          content-block-link: /
       - label: Space
         icon: block
         value: 
