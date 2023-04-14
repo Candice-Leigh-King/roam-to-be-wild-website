@@ -48,7 +48,23 @@ _array_structures:
         icon: block
         value: 
           _section-type: space-block
-          background-color: 
+          background-color: 'white'
+      - label: Blog Article 
+        icon: view_headline
+        value:
+          _section-type: blog-article
+          textarea_html: <h1>Portfolio</h1>
+          colors:
+            background-color: 'white'
+            text-color: 'rgb(83, 83, 83)'
+            heading-color: 'rgb(83, 83, 83)'
+            subheading-color: 'rgb(83, 83, 83)'
+            link-color: '#A2B7C0'
+            link-hover-color: '#C09D8A' 
+          fonts:
+            heading-font: Lovelace Regular
+            subheading-font: Lovelace Regular
+            text-font: The Youngest Serif   
       - label: Text On The Left
         icon: left_panel_open
         value:
@@ -77,12 +93,6 @@ _array_structures:
           button-link:  
           image: 
           icon: 
-      - label: Plain Text Area
-        icon: position_top_right
-        value:
-          _section-type: plain-text-area
-          textarea_html:
-          background-color: 
       - label: Text in the middle
         icon: width-wide
         value:
