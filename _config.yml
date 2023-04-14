@@ -53,18 +53,18 @@ _array_structures:
         icon: view_headline
         value:
           _section-type: blog-article
-          textarea_html: <h1>Portfolio</h1>
+          textarea_html: <h3 class="center">Portfolio</h3>
           colors:
-            background-color: 'white'
-            text-color: 'rgb(83, 83, 83)'
-            heading-color: 'rgb(83, 83, 83)'
-            subheading-color: 'rgb(83, 83, 83)'
+            background-color: white
+            text-color: rgb(83, 83, 83)
+            heading-color: rgb(83, 83, 83)
+            subheading-color: rgb(83, 83, 83)
             link-color: '#A2B7C0'
-            link-hover-color: '#C09D8A' 
+            link-hover-color: '#C09D8A'
           fonts:
             heading-font: Lovelace Regular
             subheading-font: Lovelace Regular
-            text-font: The Youngest Serif   
+            text-font: The Youngest Serif  
       - label: Text On The Left
         icon: left_panel_open
         value:
