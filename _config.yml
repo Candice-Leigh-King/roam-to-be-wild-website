@@ -127,6 +127,12 @@ _array_structures:
           bottom-right_image: /images/travel-5.webp
           content-block-link: 
 
+fonts:
+_select_data:
+  fonts:
+      - Lovelace Regular
+      - The Youngest Serif
+
 
 
             

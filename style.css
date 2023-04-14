@@ -39,17 +39,17 @@ hr, img{border: 1px solid blue;}  */
 /* Add Font */
 
 @font-face {
-    font-family: Lovelace_Regular;
+    font-family: Lovelace Regular;
     src: url('/fonts/Lovelace_Regular.otf');
 }
 
 @font-face {
-  font-family: Lovelace_Italic;
+  font-family: Lovelace Italic;
   src: url('/fonts/Lovelace_Bold_Italic.otf');
 }
 
 @font-face {
-    font-family: The_Youngest_Serif;
+    font-family: The Youngest Serif;
     src: url('/fonts/the_youngest_serif.ttf');
 }
 
@@ -61,18 +61,18 @@ hr, img{border: 1px solid blue;}  */
 
 
 body {
-  font-family: The_Youngest_Serif; 
+  font-family: The Youngest Serif; 
   /* background-color: var(--base-color); */
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: Lovelace_Regular;
+  font-family: Lovelace Regular;
   font-weight: 100;
   color: rgb(83, 83, 83);
   text-transform: uppercase;
 }
 p, a{
-  font-family: The_Youngest_Serif;
+  font-family: The Youngest Serif;
   font-size: 1.2rem;
 }
 
@@ -633,7 +633,7 @@ form textarea {
   border-bottom: 2px solid var(--button-color);
   background-color: var(--base-color);
   outline: none;
-  font-family: The_Youngest_Serif;
+  font-family: The Youngest Serif;
   font-size: 0.9rem;
 }
 
@@ -664,7 +664,7 @@ border: none;
 padding: 0.5rem 2rem;
 letter-spacing: 0.1em;
 margin: 0.5rem 0;
-font-family: The_Youngest_Serif;
+font-family: The Youngest Serif;
 font-size: 1.2rem;
 text-transform: uppercase;
 font-weight: 100;
