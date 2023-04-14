@@ -1,10 +1,9 @@
 <section id="content-blocks-{{forloop.index0}}">
-    <section class = "grid tall-70 text-on-the-left bg-base" id = "{{item.content-block-id}}">
+    <section class = "grid tall-70 text-on-the-left bg-base" id = "{{item.content-block-link}}">
         <div class = "col-6_xs-12-middle center padded-sm">
             <h1 class = "reveal fade-up">{{item.heading}}</h1>
             <h2 class = "reveal fade-right">{{item.subheading}}</h2>
-            <p class = "reveal fade-left">{{item.textarea_html}}
-            </p>
+            <div class = "reveal fade-left">{{item.textarea_html}}</div>
         </div>
         <div class = "col-6 background-image text-on-the-left-image mob-hide" style = "background-image: url('{{item.image}}');">
 
