@@ -108,21 +108,22 @@ _array_structures:
         icon: view_comfy
         value:
           _section-type: portfolio-block
-          subheading: Travel Photography
+          subheading: Underwater Photography
           gallery:
-            1_image: /images/travel-1.webp
-            2_image: /images/travel-2.webp
-            3_image: /images/travel-3.webp
-            4_image: /images/travel-4.webp
-            5_image: /images/travel-5.webp
+            1_image: /images/underwater-1.webp
+            2_image: /images/underwater-2.webp
+            3_image: /images/underwater-3.webp
+            4_image: /images/underwater-4.webp
+            5_image: /images/underwater-5.webp
           textarea_html: <p>adventure with purpose</p>
           call-to-action: Contact Me
           call-to-action-link: /contact
           colors:
             call-to-action-background-color: '#c1d6df'
             background-color: '#e2e4e6'
+            button-color: '#A2B7C0'
             border-color: '#e2e4e6'
-          content-block-link: travel-portfolio
+          content-block-link: underwater-portfolio
       - label: form
         icon: mail
         value:
