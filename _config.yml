@@ -105,14 +105,24 @@ _array_structures:
       - label: Text in the middle
         icon: width-wide
         value:
-          _section-type: text-in-the-middle 
-          left_image: 
-          heading: 
-          textarea_html: 
-          button-link: 
-          call-to-action: 
-          right_image: 
-          content-block-id: 
+          _section-type: text-in-the-middle
+          left_image: /images/what-i-do-1.webp
+          heading: what i do
+          textarea_html: >-
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dicta
+            asperiores fuga optio? Fugiat ullam fugit nulla, maiores molestiae quas
+            nostrum recusandae ut inventore harum et enim maxime quasi
+            voluptatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+            dicta asperiores fuga optio? Fugiat ullam fugit nulla, maiores molestiae
+            quas nostrum recusandae ut inventore harum et enim maxime quasi
+            voluptatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Non dicta asperiores fuga optio? Fugiat ullam fugit nulla, maiores
+            molestiae quas nostrum recusandae ut inventore harum et enim maxime quasi
+            voluptatibus.
+          button-link: contact.html
+          call-to-action: contact me
+          right_image: /images/what-i-do-2.webp
+          content-block-link: what-i-do
       - label: Portfolio
         icon: view_comfy
         value:
