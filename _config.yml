@@ -65,7 +65,7 @@ _array_structures:
             heading-font: Lovelace Regular
             subheading-font: Lovelace Regular
             text-font: The Youngest Serif  
-      - label: Text On The Left
+      - label: Text on the Left
         icon: south_america
         value:
           _section-type: text-on-the-left
