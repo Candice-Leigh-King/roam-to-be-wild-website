@@ -57,6 +57,14 @@
       font-family: {{item.fonts.subheading-font}};
       color: {{item.colors.subheading-color}};
       }
+
+@media(max-width:550px)
+
+{  #content-blocks-{{forloop.index0}} h1 
+      {
+      font-size: 2.5rem;
+      }
+}
   
   </style>    
   <section id="content-blocks-{{forloop.index0}}" class="padded-sides grid">
