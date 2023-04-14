@@ -55,9 +55,10 @@ hr, img{border: 1px solid blue;}  */
 
 /* Typography standard styles */
 
-.text-left    { text-align: left; }
-.text-right   { text-align: right; }
-.text-center  { text-align: center; }
+.left    { text-align: left; }
+.right   { text-align: right; }
+.center  { text-align: center; }
+.justify  { text-align: justify; }
 
 
 body {
