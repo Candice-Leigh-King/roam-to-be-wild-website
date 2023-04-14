@@ -78,21 +78,30 @@ _array_structures:
         icon: left_panel_open
         value: 
           _section-type: slide-in-from-right
-          heading: 
-          textarea_html: 
-          button-link: 
-          image: 
-          icon: 
-          content-block-link:
+          heading: Travel
+          textarea_html: >-
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis totam,
+            qui perferendis aut officiis sequi aspernatur cupiditate labore dolores
+            molestiae fuga nesciunt voluptatibus saepe? Quam perferendis omnis iusto
+            repellendus.
+          button-link: /portfolio.html#travel-portfolio
+          image: /images/travel-1.webp
+          icon_image: /illustrations/thick-squiggle.png
+          content-block-link: portfolio-1
       - label: Slide in from the Left 
         icon: west
         value: 
           _section-type: slide-in-from-left
-          heading: 
-          textarea_html:
-          button-link:  
-          image: 
-          icon: 
+          heading: Real Estate
+          textarea_html: >-
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis totam,
+            qui perferendis aut officiis sequi aspernatur cupiditate labore dolores
+            molestiae fuga nesciunt voluptatibus saepe? Quam perferendis omnis iusto
+            repellendus.
+          button-link: /portfolio.html#real-estate-portfolio
+          image: /images/real-estate-5.webp
+          icon_image: /illustrations/thick-squiggle.png
+          content-block-link: portfolio-2
       - label: Text in the middle
         icon: width-wide
         value:
