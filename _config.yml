@@ -115,16 +115,17 @@ _array_structures:
         icon: mail
         value:
           _section-type: form
-          background_image: 
-          top-left_image: 
-          top-left_illustration: 
-          heading: 
-          form-field-1_textarea_html: 
-          form-field-2_textarea_html: 
-          form-field-3_textarea_html: 
-          button_textarea_html: 
-          bottom-right_image: 
-          content-block-id:
+          background_image: /images/banner.webp
+          top-left_image: /images/about.webp
+          top-left_illustration: /illustrations/thin-squiggle.png
+          heading: Contact Me
+          form-input:
+            option-box.option-1: Name and Surname 
+            option-box.option-1: Email
+            option-box.option-1: What Service do you require?
+          button-cta: Send
+          bottom-right_image: /images/travel-5.webp
+          content-block-link: 
 
 
 

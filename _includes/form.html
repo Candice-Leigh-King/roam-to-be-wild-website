@@ -1,11 +1,11 @@
 <section id="content-blocks-{{forloop.index0}}">
-    <section class = "fadeIn animatedFadeIn animated" id = "{{item.content-block-id}}">
+    <section class = "fadeIn animatedFadeIn animated" id = "{{item.content-block-link}}">
         <section class = "contact-block">
             <section class = "grid background-image" style="background-image: url('{{item.background_image}}');">
                 <div class = "col-12 mob-hide grid-left">
                     <div class = "col-2 contact-img-1">
                         <img src = "{{item.top-left_image}}" width = "120%" class = "contact-image-1">
-                        <img src = "{{item.top-left_illustration}}" width = "80%" class = "contact-icon-1">
+                        <img src = "{{item.top-left-illustration_image}}" width = "80%" class = "contact-icon-1">
                     </div>
                     
                 </div>
@@ -17,18 +17,18 @@
                         <!---------- Simple Contact Form Elements  ------------->
                         <form method="post" action="/success.html">
                         
-                            <label for="_name"> {{item.form-field-1_textarea_html}} </label>
+                            <label for="_name"> {{item.form-input.option-box.option-1}} </label>
                             <input type="text" name="_name" id="_name" />
                         
-                            <label for="_replyto"> {{item.form-field-2_textarea_html}} </label>
+                            <label for="_replyto"> {{item.form-input.option-box.option-2}} </label>
                             <input type="email" name="_replyto" id="_replyto"/>
                         
-                            <label for="message"> {{item.form-field-3_textarea_html}} </label>
+                            <label for="message"> {{item.form-input.option-box.option-3}} </label>
                             <textarea name="message" id="message"></textarea>
             
-                            <input type="hidden" name="inbox_key" value="bianca-roams-general-form">
+                            <input type="hidden" name="inbox_key" value="{{site.data.general.basics.email-address}}">
                             <input type="text" name="_gotcha" style="display: none;" />
-                            <button class = "button" type="submit"> {{item.button_textarea_html}} </button>
+                            <button class = "button" type="submit"> {{item.button-cta}} </button>
                             
                         </form> 
                     </div>
