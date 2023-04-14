@@ -70,9 +70,8 @@ _array_structures:
         value:
           _section-type: text-on-the-left
           heading: BONJOUR
-          subheading: Hello! <br> I am Name Surname
           textarea_html: >-
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+            <h2 class="center">Hello!</h2><h2 class="center">I am Bianca</h2><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
             blanditiis omnis cupiditate. Provident dolores quis sit, velit corporis,
             libero quod explicabo, veniam necessitatibus consectetur quae. Asperiores
             nam possimus pariatur rerum? Lorem ipsum dolor sit amet consectetur,
