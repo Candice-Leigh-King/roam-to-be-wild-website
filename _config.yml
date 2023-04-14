@@ -68,22 +68,29 @@ _array_structures:
       - label: Text On The Left
         icon: left_panel_open
         value:
-          _section-type: text-on-the-left
-          heading: 
-          subheading: 
-          textarea_html: 
-          image: 
-          content-block-id: 
+          section-type: text-on-the-left
+          heading: BONJOUR
+          subheading: Hello! <br> I am Name Surname
+          textarea_html: >-
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+            blanditiis omnis cupiditate. Provident dolores quis sit, velit corporis,
+            libero quod explicabo, veniam necessitatibus consectetur quae. Asperiores
+            nam possimus pariatur rerum? Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Praesentium blanditiis omnis cupiditate. Provident
+            dolores quis sit, velit corporis, libero quod explicabo, veniam
+            necessitatibus consectetur quae. Asperiores nam possimus pariatur rerum?</p>
+          image: /images/about.webp
+          content-block-link: about 
       - label: Slide in from the Right 
         icon: left_panel_open
         value: 
           _section-type: slide-in-from-right
           heading: Travel
           textarea_html: >-
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis totam,
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis totam,
             qui perferendis aut officiis sequi aspernatur cupiditate labore dolores
             molestiae fuga nesciunt voluptatibus saepe? Quam perferendis omnis iusto
-            repellendus.
+            repellendus.</p>
           button-link: /portfolio.html#travel-portfolio
           image: /images/travel-1.webp
           icon_image: /illustrations/thick-squiggle.png
@@ -94,10 +101,10 @@ _array_structures:
           _section-type: slide-in-from-left
           heading: Real Estate
           textarea_html: >-
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis totam,
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis totam,
             qui perferendis aut officiis sequi aspernatur cupiditate labore dolores
             molestiae fuga nesciunt voluptatibus saepe? Quam perferendis omnis iusto
-            repellendus.
+            repellendus.</p>
           button-link: /portfolio.html#real-estate-portfolio
           image: /images/real-estate-5.webp
           icon_image: /illustrations/thick-squiggle.png
@@ -109,7 +116,7 @@ _array_structures:
           left_image: /images/what-i-do-1.webp
           heading: what i do
           textarea_html: >-
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dicta
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dicta
             asperiores fuga optio? Fugiat ullam fugit nulla, maiores molestiae quas
             nostrum recusandae ut inventore harum et enim maxime quasi
             voluptatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
@@ -118,7 +125,7 @@ _array_structures:
             voluptatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Non dicta asperiores fuga optio? Fugiat ullam fugit nulla, maiores
             molestiae quas nostrum recusandae ut inventore harum et enim maxime quasi
-            voluptatibus.
+            voluptatibus.</p>
           button-link: contact.html
           call-to-action: contact me
           right_image: /images/what-i-do-2.webp
