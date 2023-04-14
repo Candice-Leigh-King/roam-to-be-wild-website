@@ -80,7 +80,7 @@ _array_structures:
             dolores quis sit, velit corporis, libero quod explicabo, veniam
             necessitatibus consectetur quae. Asperiores nam possimus pariatur rerum?</p>
           image: /images/about.webp
-    content-block-link: about
+          content-block-link: about
       - label: Slide in from the Right 
         icon: east
         value: 
