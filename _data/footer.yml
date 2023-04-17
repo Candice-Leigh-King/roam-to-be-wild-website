@@ -9,6 +9,6 @@ footer-navigation:
   link-1:
     textarea_html: <p><a href="/portfolio.html">Portfolio</a></p>
   link-2:
-    textarea_html: <p><a target="_blank" rel="noopener" href="roamtobewild.com">Stays</a></p>
+    textarea_html: <p><a href="https://www.roamtobewild.com/">Stays</a></p>
   link-3:
     textarea_html: <p><a href="/contact">Contact</a></p>
