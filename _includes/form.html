@@ -10,25 +10,26 @@
                     
                 </div>
                 <div class = "col-12 grid-center center ">
-                    <div class = "col-8_sm-10-middle bg-camel tall-40 padded center bg-base">
+                    <div class = "col-8_sm-10-middle bg-camel grid tall-40 padded center bg-base">
                 
-                        <h1>{{item.heading}}</h1>
+                        <h1 class="padded col-12">{{item.heading}}</h1>
                         <!-- modify this form HTML and place wherever you want your form -->
                         <!---------- Simple Contact Form Elements  ------------->
-                        <form method="post" action="/success.html">
+                        <form class ="col-12 grid-center" method="post" action="/success.html">
                         
-                            <label for="_name"> {{item.form-input.option-box.option-1}} </label>
-                            <input type="text" name="_name" id="_name" />
+                            <label class="col-9" for="_name"> {{item.form-input.option-box.option-1}} </label>
+                            <input class="col-9" type="text" name="_name" id="_name" />
                         
-                            <label for="_replyto"> {{item.form-input.option-box.option-2}} </label>
-                            <input type="email" name="_replyto" id="_replyto"/>
+                            <label class="col-9" for="_replyto"> {{item.form-input.option-box.option-2}} </label>
+                            <input class="col-9" type="email" name="_replyto" id="_replyto"/>
                         
-                            <label for="message"> {{item.form-input.option-box.option-3}} </label>
-                            <textarea name="message" id="message"></textarea>
+                            <label class="col-9" for="message"> {{item.form-input.option-box.option-3}} </label>
+                            <textarea class="col-9" name="message" id="message"></textarea>
             
                             <input type="hidden" name="inbox_key" value="bianca-roams-general-form">
                             <input type="text" name="_gotcha" style="display: none;" />
-                            <button class = "button" type="submit"> {{item.button-cta}} </button>
+                             <button class = "button col-3_xs-8" type="submit"> {{item.button-cta}} </button></div>
+                           
                             
                         </form> 
                     </div>
